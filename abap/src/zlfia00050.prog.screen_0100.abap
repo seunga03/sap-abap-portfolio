@@ -1,0 +1,9 @@
+PROCESS BEFORE OUTPUT.
+  MODULE status_0100.
+  CALL SUBSCREEN sub_sel INCLUDING sy-repid '0110'.
+  MODULE init_control_processing.
+
+PROCESS AFTER INPUT.
+  MODULE exit_0100 AT EXIT-COMMAND.
+  CALL SUBSCREEN sub_sel.
+  MODULE user_command_0100.

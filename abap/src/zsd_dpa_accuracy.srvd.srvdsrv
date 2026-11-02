@@ -1,0 +1,5 @@
+@EndUserText.label: 'AI 수요예측 분석 OData 서비스'
+define service ZSD_DPA_ACCURACY {
+  expose ZC_DPA_ACCURACY_UI    as ForecastAccuracy;
+  expose ZC_DPA_ACCURACY_CHART as ForecastComparison;
+}

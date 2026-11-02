@@ -1,0 +1,33 @@
+*&---------------------------------------------------------------------*
+*& Include ZRCMA00020_SEL - 조회조건
+*&---------------------------------------------------------------------*
+SELECTION-SCREEN BEGIN OF BLOCK b0 WITH FRAME TITLE TEXT-t00.   " 프로그램 안내
+  SELECTION-SCREEN COMMENT /1(79) TEXT-i01.
+  SELECTION-SCREEN COMMENT /1(79) TEXT-i02.
+SELECTION-SCREEN END OF BLOCK b0.
+
+SELECTION-SCREEN BEGIN OF BLOCK bq WITH FRAME TITLE TEXT-T03.    " 빠른 조회
+  SELECTION-SCREEN BEGIN OF LINE.
+    PARAMETERS p_q_rk RADIOBUTTON GROUP gq DEFAULT 'X' USER-COMMAND ucq.
+    SELECTION-SCREEN COMMENT 4(18) TEXT-q01 FOR FIELD p_q_rk.   " 위험 건만
+    PARAMETERS p_q_op RADIOBUTTON GROUP gq.
+    SELECTION-SCREEN COMMENT 26(18) TEXT-q02 FOR FIELD p_q_op.  " 전체 미입고
+    PARAMETERS p_q_dr RADIOBUTTON GROUP gq.
+    SELECTION-SCREEN COMMENT 48(18) TEXT-q03 FOR FIELD p_q_dr.  " 직접 조건
+  SELECTION-SCREEN END OF LINE.
+SELECTION-SCREEN END OF BLOCK bq.
+
+SELECTION-SCREEN BEGIN OF BLOCK b1 WITH FRAME TITLE TEXT-t01.   " 조회조건
+  SELECT-OPTIONS: s_werks FOR gv_werks,
+                  s_lifnr FOR gv_lifnr,
+                  s_matkl FOR gv_matkl.
+SELECTION-SCREEN END OF BLOCK b1.
+
+SELECTION-SCREEN BEGIN OF BLOCK b2 WITH FRAME TITLE TEXT-t02.
+  PARAMETERS: p_nor  AS CHECKBOX DEFAULT 'X' MODIF ID drc,
+              p_war  AS CHECKBOX DEFAULT 'X' MODIF ID drc,
+              p_cri  AS CHECKBOX DEFAULT 'X' MODIF ID drc,
+              p_open AS CHECKBOX DEFAULT 'X' MODIF ID drc.     " 미입고 건만
+SELECTION-SCREEN END OF BLOCK b2.
+
+SELECTION-SCREEN FUNCTION KEY 1.                                  " [초기화]

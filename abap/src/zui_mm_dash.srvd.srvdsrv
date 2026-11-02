@@ -1,0 +1,12 @@
+@EndUserText.label: '플랜트 재고 대시보드 서비스'
+define service ZUI_MM_DASH {
+  expose ZI_MM_DASH_PLANT       as Plant;
+  expose ZI_MM_DASH_STORAGE     as Storage;
+  expose ZI_MM_DASH_STOCK       as Stock;
+  expose ZI_MM_DASH_STOCK_PLANT as PlantStock;
+  expose ZI_MM_DASH_MOVEMENT    as Movement;
+  expose ZI_MM_DASH_PO_PROGRESS as PurchaseOrder;
+  expose ZI_MM_DASH_PR_PROGRESS as PurchaseRequest;
+  expose ZI_MM_DASH_INSPECTION  as Inspection;
+  expose ZI_MM_DASH_SHORTAGE    as Shortage;
+}

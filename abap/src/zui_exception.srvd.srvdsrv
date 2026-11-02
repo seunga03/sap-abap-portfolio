@@ -1,0 +1,10 @@
+define service ZUI_EXCEPTION {
+  expose ZC_EXCEPTION      as Exception;
+  expose ZC_EXCEPTION_HIST as History;
+  expose ZI_EXCEPTION_REQ  as FollowUpRequest;
+  expose ZI_EXC_ACTION_VH  as ActionTypeVH;
+  expose ZI_EXC_SRTYP_VH   as ExcSrtypVH;
+  expose ZI_EXC_OWGRP_VH   as ExcOwgrpVH;
+  expose ZI_EXC_EXTYP_VH   as ExcExtypVH;
+  expose ZI_EXC_PRSTA_VH   as ExcPrstaVH;
+}

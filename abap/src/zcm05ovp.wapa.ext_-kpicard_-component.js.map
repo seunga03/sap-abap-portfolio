@@ -1,0 +1,3 @@
+{"version":3,"file":"Component.js","names":["sap","ui","define","CardComponent","extend","metadata","properties","contentFragment","type","defaultValue","version","library","includes","dependencies","libs","components","config"],"sources":["Component-dbg+
+.js"],"mappings":"AAAAA,IAAIC,GAAGC,OAAO,CAAC,sCAAuC,SAAUC,GAC5D,aACA,OAAOA,EAAcC,OAAO,gCAAiC,CACzDC,SAAU,CACNC,WAAY,CACRC,gBAAiB,CACbC,KAAM,SACNC,aAAc,gCAGtBC,QAAS,QACTC,QAAS,UACTC,SAAU,GACVC,aAAc,CAAEC,KAAM,CAAC,SAAUC,WAAY,IAC7CC,OAAQ,CAAC,IAGrB","igno+
+reList":[]}                                                                                                                                                                                                                                                    

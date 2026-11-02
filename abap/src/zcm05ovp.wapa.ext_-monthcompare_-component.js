@@ -1,0 +1,3 @@
+sap.ui.define(["sap/ovp/cards/v4/generic/Component"],function(e){"use strict";return e.extend("cm05ovp.ext.monthCompare.Component",{metadata:{properties:{contentFragment:{type:"string",defaultValue:"cm05ovp.ext.monthCompare.MonthCompare"}},version:"1.0.0+
+",library:"sap.ovp",includes:[],dependencies:{libs:["sap.m"],components:[]},config:{}}})});                                                                                                                                                                    
+//# sourceMappingURL=Component.js.map                                                                                                                                                                                                                          

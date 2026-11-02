@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>자재 관련 Function Group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFG_A_MATERIALF01</SOBJ_NAME>
+    <SOBJ_NAME>LZFG_A_MATERIALTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFG_A_MATERIAL</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZFM_MM_BOM_CAL</FUNCNAME>
+     <SHORT_TEXT>BOM 계산</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>BOM_HEAD</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTCMA00120</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>BOM_ITEM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTCMA00130</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PURCHASE_ITEM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZSMMA00060</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_EBELP</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EBELP</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_EBELN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EBELN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PROCURE_COND</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTCMA00040</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MY_EBELN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EBELN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MY_EBELP</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>EBELP</TYP>
+      </RSIMP>
+     </IMPORT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>STOCK_DETAIL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00070</TYP>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>CV_ERROR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ABAP_BOOL</TYP>
+      </RSCHA>
+     </CHANGING>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>PURCHASE_ORDER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00061</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>PURCHASE_RESERVE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00160</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>BOM_HEAD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>BOM HEAD 테이블 타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BOM_ITEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>BOM ITEM 테이블 타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PURCHASE_ITEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>구매오더 아이템 테이블 타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_EBELP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>구매 문서의 품목 번호</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_EBELN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>구매 요청 번호</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PROCURE_COND</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>자재 공급업체 거래조건 테이블타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MY_EBELN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>구매 문서 번호</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MY_EBELP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>구매 문서의 품목 번호</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PURCHASE_ORDER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>PR 테이블 타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PURCHASE_RESERVE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>출고 자재 예약 테이블타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>리턴 매개변수</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>STOCK_DETAIL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>재고 현황 테이블 타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CV_ERROR</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_MM_BOM_PR</FUNCNAME>
+     <SHORT_TEXT>BOM을 통한 하위 자재들 모두 구하기</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>PURCHASE_HEAD</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00050</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PURCHASE_ITEM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00061</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>PURCHASE_ORDER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00061</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>PURCHASE_RESERVE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00160</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>STOCK</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00070</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>PURCHASE_HEAD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>pr 구조</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PURCHASE_ITEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>구매오더 아이템 테이블 타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PURCHASE_ORDER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>구매오더 아이템 테이블 타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PURCHASE_RESERVE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>출고 자재 예약 테이블타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>STOCK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>재고 현황 테이블 타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>리턴 매개변수</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_MM_INSPECTION_RESULT</FUNCNAME>
+     <SHORT_TEXT>품질 검사</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>RESULT_INPUT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00131</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>INSPECTION_HEADER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00120</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>INSPECTION_ITEM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00130</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>RESULT_MATERIAL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00090</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>MATERIAL_STOCK</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00070</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>RESULT_INPUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>품질검사 아이템 테이블타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>INSPECTION_HEADER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>[MM] 입고검사 헤더</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>INSPECTION_ITEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>[MM] 입고검사 아이템</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RESULT_MATERIAL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>[MM] 자재이동 아이템</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MATERIAL_STOCK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>재고 현황 테이블 타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>리턴 매개변수</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_MM_MATERIAL_GI</FUNCNAME>
+     <SHORT_TEXT>GI</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>GI_INPUT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00132</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>GI_MATERIAL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00090</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>MATERIAL_STOCK</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00070</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>GI_INPUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>GI Input</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GI_MATERIAL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>자재 이동 아이템 테이블 타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MATERIAL_STOCK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>재고 현황 테이블 타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>리턴 매개변수</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_MM_MATERIAL_GR</FUNCNAME>
+     <SHORT_TEXT>GR 처리</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>PURCHASE_HEADER</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00050</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PURCHASE_ITEM</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00060</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>PURCHASE_HEADER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>구매오더 헤더 테이블타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PURCHASE_ITEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>실제 입고량 테이블 타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return Parameter</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_MM_MATERIAL_RESERVE</FUNCNAME>
+     <SHORT_TEXT>예약 재고로 변경</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>SALES_HEADER</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTSDA00010</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>SALES_ITEM</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTSDA00020</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>RESERVE_MATERIAL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00090</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>SALES_HEADER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>판매오더 헤더 테이블타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SALES_ITEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>판매오더 아이템 테이블타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RESERVE_MATERIAL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>자재 이동 아이템 테이블 타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>리턴 매개변수</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_MM_MATERIAL_STOCK</FUNCNAME>
+     <SHORT_TEXT>자재 변화</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>MOVE_MATERIAL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00090</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>MATERIAL_STOCK</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00070</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>MOVE_MATERIAL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>자재 이동 아이템 테이블 타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MATERIAL_STOCK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>재고 현황 테이블 타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>리턴 매개변수</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_MM_PO_CREATE</FUNCNAME>
+     <SHORT_TEXT>PO 생성 FM</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>PURCHASE_ITEM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00044</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PURCHASE_REQ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00043</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_MMA00050</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00050</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_MMA00060</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00061</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>PURCHASE_ITEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>PO 생성 테이블타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PURCHASE_REQ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>pr 구조</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_MMA00050</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>구매오더 헤더 테이블타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_MMA00060</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>구매오더 아이템 테이블 타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>리턴 매개변수</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_MM_PR_TRACKING</FUNCNAME>
+     <SHORT_TEXT>PR 추적</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>MATERIAL_ITEM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00090</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>MATERIAL_ITEM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>자재 이동 아이템 테이블 타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>리턴 매개변수</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_MM_SUBC_RESERVE</FUNCNAME>
+     <SHORT_TEXT>예약</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>PURCHASE_RESERVE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00160</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>PURCHASE_RESERVE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>출고 자재 예약 테이블타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>리턴 매개변수</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

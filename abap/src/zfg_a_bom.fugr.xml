@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>BOM</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFG_A_BOMTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFG_A_BOM</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZFM_MM_SO_LEADTIME</FUNCNAME>
+     <SHORT_TEXT>납품 가능 불가능 판정</SHORT_TEXT>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_MM_SUBC_BOM_GET</FUNCNAME>
+     <SHORT_TEXT>BOM 전체 결과 취득</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_EBELN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTMMA00060-EBELN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_EBELP</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTMMA00060-EBELP</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_KEYDATE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SY-DATUM</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_COMPONENT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00030</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BAPIRET2_T</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_EBELN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>구매 문서 번호</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_EBELP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>구매 문서의 품목 번호</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_KEYDATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ABAP system field: Current date of application server</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_COMPONENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>지급자재 필요량 목록</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return table</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

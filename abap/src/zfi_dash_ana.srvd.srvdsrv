@@ -1,0 +1,4 @@
+@EndUserText.label: '채권·채무 대시보드'
+define service ZFI_DASH_ANA {
+  expose ZV_FI_DASH_ITEM as OpenItem;
+}

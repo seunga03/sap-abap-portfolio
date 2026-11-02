@@ -1,0 +1,9 @@
+unmanaged implementation in class zbp_i_mm_gr unique;
+strict ( 2 );
+
+define behavior for ZI_MM_GR alias Gr
+lock master
+authorization master ( global )
+{
+  static action CreateGr deep parameter ZAE_MM_GR_REQUEST;
+}

@@ -1,0 +1,3 @@
+sap.ui.define(["sap/ui/core/UIComponent","com/zmm/zmmdash/model/models"],(e,t)=>{"use strict";return e.extend("com.zmm.zmmdash.Component",{metadata:{manifest:"json",interfaces:["sap.ui.core.IAsyncContentCreation"]},init(){e.prototype.init.apply(this,argu+
+ments);this.setModel(t.createDeviceModel(),"device");this.getRouter().initialize()}})});                                                                                                                                                                       
+//# sourceMappingURL=Component.js.map                                                                                                                                                                                                                          

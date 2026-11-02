@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZDE_SRTYP</ROLLNAME>
+    <DDLANGUAGE>3</DDLANGUAGE>
+    <DOMNAME>ZD_CMCODE</DOMNAME>
+    <HEADLEN>06</HEADLEN>
+    <SCRLEN1>06</SCRLEN1>
+    <SCRLEN2>06</SCRLEN2>
+    <SCRLEN3>06</SCRLEN3>
+    <DDTEXT>발생출처유형</DDTEXT>
+    <REPTEXT>발생출처유형</REPTEXT>
+    <SCRTEXT_S>발생출처유형</SCRTEXT_S>
+    <SCRTEXT_M>발생출처유형</SCRTEXT_M>
+    <SCRTEXT_L>발생출처유형</SCRTEXT_L>
+    <DTELMASTER>3</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>발생출처유형</DDTEXT>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,5 @@
+@EndUserText.label: 'SD 대시보드 분석 서비스'
+define service ZSD_DASH_ANA_SD {
+  expose ZV_SD_DASH_ANA;
+  expose ZV_SD_PROC_ITEM;
+}

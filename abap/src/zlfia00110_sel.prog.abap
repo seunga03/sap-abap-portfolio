@@ -1,0 +1,21 @@
+*&---------------------------------------------------------------------*
+*& Include          ZLFIA00110_SEL
+*&---------------------------------------------------------------------*
+SELECTION-SCREEN BEGIN OF SCREEN 0110 AS SUBSCREEN.
+  SELECTION-SCREEN BEGIN OF LINE.
+    SELECTION-SCREEN COMMENT 1(8) TEXT-c01 FOR FIELD p_keydt.      " 기준일
+    PARAMETERS p_keydt TYPE sy-datum DEFAULT sy-datum.
+
+    SELECTION-SCREEN POSITION 30.
+    PARAMETERS r_all RADIOBUTTON GROUP r1 DEFAULT 'X'.
+    SELECTION-SCREEN COMMENT 33(6) TEXT-c02 FOR FIELD r_all.         " 전체
+
+    SELECTION-SCREEN POSITION 41.
+    PARAMETERS r_ap RADIOBUTTON GROUP r1.
+    SELECTION-SCREEN COMMENT 44(6) TEXT-c03 FOR FIELD r_ap.          " 채무
+
+    SELECTION-SCREEN POSITION 52.
+    PARAMETERS r_ar RADIOBUTTON GROUP r1.
+    SELECTION-SCREEN COMMENT 55(6) TEXT-c04 FOR FIELD r_ar.          " 채권
+  SELECTION-SCREEN END OF LINE.
+SELECTION-SCREEN END OF SCREEN 0110.

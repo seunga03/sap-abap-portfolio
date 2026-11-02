@@ -1,0 +1,3 @@
+sap.ui.define(["sap/ovp/cards/v4/generic/Component"],function(t){"use strict";return t.extend("cm05ovp.ext.statusDonut.Component",{metadata:{properties:{contentFragment:{type:"string",defaultValue:"cm05ovp.ext.statusDonut.StatusDonut"}},version:"1.0.0",l+
+ibrary:"sap.ovp",includes:[],dependencies:{libs:["sap.m"],components:[]},config:{}}})});                                                                                                                                                                       
+//# sourceMappingURL=Component.js.map                                                                                                                                                                                                                          

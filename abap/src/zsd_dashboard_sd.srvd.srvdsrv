@@ -1,0 +1,7 @@
+@EndUserText.label: 'SD 대시보드 서비스 정의'
+define service ZSD_DASHBOARD_SD {
+  expose ZV_SD_DASHBOARD;
+  expose ZV_SD_VH_SO;
+  expose ZV_SD_VH_CUSTOMER;
+  expose ZV_SD_VH_STATUS;
+}

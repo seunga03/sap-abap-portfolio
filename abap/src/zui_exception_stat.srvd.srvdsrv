@@ -1,0 +1,4 @@
+@EndUserText.label: 'Exception 통계 Service'
+define service ZUI_EXCEPTION_STAT {
+  expose ZC_EXCEPTION_STAT as ExceptionStat;
+}

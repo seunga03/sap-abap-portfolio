@@ -1,0 +1,43 @@
+@Metadata.layer: #CORE
+
+@UI.headerInfo: {
+  typeName: '수요예측 분석',
+  typeNamePlural: '수요예측 분석 결과'
+}
+
+annotate view ZC_DPA_ACCURACY_UI with
+{
+  @UI.lineItem: [{ position: 10, label: '예측번호' }]
+  @UI.selectionField: [{ position: 10 }]
+  Fcsno;
+
+  @UI.lineItem: [{ position: 20, label: '플랜트' }]
+  @UI.selectionField: [{ position: 20 }]
+  Werks;
+
+  @UI.lineItem: [{ position: 30, label: '자재번호' }]
+  @UI.selectionField: [{ position: 30 }]
+  Matnr;
+
+  @UI.lineItem: [{ position: 40, label: '예측 시작일' }]
+  @UI.selectionField: [{ position: 40 }]
+  Fcdat;
+
+  @UI.lineItem: [{ position: 50, label: 'AI 예측수량' }]
+  Aiqty;
+
+  @UI.lineItem: [{ position: 60, label: '최종 확정수량' }]
+  Fiqty;
+
+  @UI.lineItem: [{ position: 70, label: '실제 주문수량' }]
+  ActualQty;
+
+  @UI.lineItem: [{ position: 80, label: 'AI 오차율(%)' }]
+  AiApe;
+
+  @UI.lineItem: [{ position: 90, label: '최종 오차율(%)' }]
+  FiApe;
+
+  @UI.lineItem: [{ position: 100, label: '평가 상태' }]
+  EvalStatus;
+}

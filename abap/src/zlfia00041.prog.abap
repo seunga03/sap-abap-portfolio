@@ -1,0 +1,27 @@
+*&---------------------------------------------------------------------*
+*& Report ZLFIA00010
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+
+INCLUDE ZLFIA00041_TOP.
+*INCLUDE ZLFIA00040_TOP.
+*INCLUDE zlfia00010_top.
+INCLUDE ZLFIA00041_K01.
+*INCLUDE ZLFIA00040_K01.
+*INCLUDE zlfia00010_k01.
+INCLUDE ZLFIA00041_SEL.
+*INCLUDE ZLFIA00040_SEL.
+*INCLUDE zlfia00010_sel.
+INCLUDE ZLFIA00041_O01.
+*INCLUDE ZLFIA00040_O01.
+*INCLUDE zlfia00010_o01.
+INCLUDE ZLFIA00041_I01.
+*INCLUDE ZLFIA00040_I01.
+*INCLUDE zlfia00010_i01.
+INCLUDE ZLFIA00041_F01.
+*INCLUDE ZLFIA00040_F01.
+*INCLUDE zlfia00010_f01.
+INCLUDE ZLFIA00041_E01.
+*INCLUDE ZLFIA00040_E01.
+*INCLUDE zlfia00010_e01.

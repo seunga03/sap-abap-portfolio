@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>PR 관리</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFG_A_PR_CREATETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFG_A_PR_CREATE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZFM_MM_PR_CREATE</FUNCNAME>
+     <SHORT_TEXT>PR 생성</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IT_PR_REQUEST</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00010</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_LOCK_HELD</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ABAP_BOOL</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_PR_RESULT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTTMMA00020</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BAPIRET2_T</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_PR_REQUEST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>PR 요청 테이블 타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_LOCK_HELD</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_PR_RESULT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>PR 결과 테이블 타입</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return table</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

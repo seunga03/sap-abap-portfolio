@@ -1,0 +1,66 @@
+managed with additional save implementation in class zbp_i_exception unique;
+strict ( 2 );
+define behavior for ZI_EXCEPTION alias Exception
+persistent table ztexa00010
+lock master
+authorization master ( global )
+etag master local_last_changed_at
+{
+  internal update;          // UI 직접 수정 불가, Action 안에서만 변경
+
+  field ( readonly ) exnum, srtyp, srnum, sritm, owgrp, extyp, crdat;
+  field ( readonly ) age_days, age_crit, status_crit, is_open, prsta_text,
+                     srtyp_text, extyp_text, owgrp_text;
+  field ( readonly ) hide_start;
+  field ( readonly ) hide_decide, hide_actn, hide_early, hide_reassign;
+  field ( readonly ) hide_risk,
+                     rk_matnr, rk_lifnr, rk_name1,
+                     rk_pldat, rk_acdat, rk_dlday,
+                     rk_rkgrd, rk_rkgrd_text;
+  field ( readonly ) hide_invc,
+                     iv_lifnr, iv_name1, iv_ebeln, iv_ebelp, iv_matnr,
+                     iv_menge, iv_meins, iv_waers, iv_netpr, iv_wrbtr,
+                     iv_ponetpr, iv_diff,
+                     iv_mstat, iv_mstat_text, iv_vdudt,
+                     hide_qm,
+                     qm_mblnr, qm_mjahr, qm_insdt, qm_insby, qm_statu, qm_statu_text,
+                     qm_matnr, qm_insqt, qm_pasqt, qm_faiqt, qm_meins,
+                     qm_reslt, qm_reslt_text, qm_defcd, qm_defcd_text, qm_deftx,
+                     hide_subc,
+                     sc_ebeln, sc_ebelp, sc_matnr, sc_lifnr, sc_name1,
+                     sc_pliss, sc_aciss, sc_pluse, sc_acuse, sc_meins,
+                     sc_diff_iss, sc_diff_use, sc_rcsts, sc_rcsts_text,
+                     sc_cfdat, sc_cfusr, sc_znote;
+
+  action ( features : instance ) assignToMe  result [1] $self;
+  action ( features : instance ) assignTo parameter ZA_EXC_ASSIGN result [1] $self;
+  action ( features : instance ) releaseHold result [1] $self;
+  action ( features : instance ) reject parameter ZA_EXC_MEMO result [1] $self;
+  action ( features : instance ) close  parameter ZA_EXC_MEMO result [1] $self;
+  action ( features : instance ) decideAction parameter ZA_EXC_DECIDE result [1] $self;
+  action ( features : instance ) recheck result [1] $self;
+  action ( features : instance ) aiRecommend result [1] $self;
+  action ( features : instance ) getAiRecommend result [1] ZA_EXC_AI_RESULT;
+
+  association _History;
+
+    side effects
+  {
+    action assignToMe   affects entity _History;
+    action assignTo     affects entity _History;
+    action releaseHold  affects entity _History;
+    action decideAction affects entity _History;
+    action close        affects entity _History;
+    action reject       affects entity _History;
+    action recheck      affects entity _History;
+    action aiRecommend  affects entity _History;
+  }
+}
+define behavior for ZI_EXCEPTION_HIST alias History
+persistent table ztexa00020
+lock dependent by _Exception
+authorization dependent by _Exception
+{
+  field ( readonly ) logno, exnum, prtms, prres, uname, prtxt, prres_text;
+  association _Exception;
+}

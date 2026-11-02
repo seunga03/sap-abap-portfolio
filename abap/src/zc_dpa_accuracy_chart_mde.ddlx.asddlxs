@@ -1,0 +1,35 @@
+@Metadata.layer: #CORE
+
+@UI.chart: [{
+  qualifier: 'ForecastCompare',
+  title: 'AI 예측수량 테스트',
+  chartType: #COLUMN,
+  dimensions: ['Matnr'],
+  measures: ['AiForecastQty']
+}]
+
+annotate view ZC_DPA_ACCURACY_CHART with
+{
+    // 플랜트 필터
+    @UI.selectionField: [{ position: 10 }]
+    Werks;
+
+    // 자재번호: 필터와 테이블 컬럼을 함께 설정
+    @UI.selectionField: [{ position: 20 }]
+    @UI.lineItem: [{ position: 10, label: '자재번호' }]
+    Matnr;
+
+    // 예측시작일 필터
+    @UI.selectionField: [{ position: 30 }]
+    Fcdat;
+
+    // 수량 컬럼
+    @UI.lineItem: [{ position: 20, label: 'AI 예측수량' }]
+    AiForecastQty;
+
+    @UI.lineItem: [{ position: 30, label: '최종 확정수량' }]
+    FinalForecastQty;
+
+    @UI.lineItem: [{ position: 40, label: '실제 수요량' }]
+    ActualDemandQty;
+}

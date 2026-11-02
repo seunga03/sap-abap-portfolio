@@ -1,0 +1,28 @@
+*&---------------------------------------------------------------------*
+*& Include          ZLFIA00040_SEL
+*&---------------------------------------------------------------------*
+SELECTION-SCREEN BEGIN OF SCREEN 0110 AS SUBSCREEN.
+
+  SELECTION-SCREEN BEGIN OF BLOCK b1 WITH FRAME TITLE TEXT-t01.
+    SELECT-OPTIONS: s_rcpdt FOR ztfia00060-rcpdt.     " 수금일
+    SELECTION-SCREEN BEGIN OF LINE.
+      SELECTION-SCREEN PUSHBUTTON 33(8) TEXT-p01 USER-COMMAND pm01.   " 최근 1개월
+      SELECTION-SCREEN PUSHBUTTON 42(8) TEXT-p02 USER-COMMAND pm03.   " 최근 3개월
+      SELECTION-SCREEN PUSHBUTTON 51(8) TEXT-p03 USER-COMMAND pm12.   " 최근 1년
+    SELECTION-SCREEN END OF LINE.
+    SELECTION-SCREEN BEGIN OF LINE.
+      SELECTION-SCREEN COMMENT 1(20) TEXT-c01 FOR FIELD p_rcpac.
+      SELECTION-SCREEN POSITION 33.
+      PARAMETERS p_rcpac TYPE ztfia00060-rcpac.       " 입금계좌 (F4)
+      SELECTION-SCREEN COMMENT 46(35) gv_bnktx.       " 은행명 + 계좌번호
+    SELECTION-SCREEN END OF LINE.
+    SELECTION-SCREEN BEGIN OF LINE.
+      SELECTION-SCREEN COMMENT 1(20) TEXT-c02 FOR FIELD p_kunnr.
+      SELECTION-SCREEN POSITION 33.
+      PARAMETERS p_kunnr TYPE ztfia00060-kunnr.       " 고객 (비우면 전체)
+      SELECTION-SCREEN COMMENT 46(35) gv_kunnm.       " 고객명
+    SELECTION-SCREEN END OF LINE.
+    SELECT-OPTIONS: s_rcpnr FOR ztfia00060-rcpnr.     " 수금번호
+  SELECTION-SCREEN END OF BLOCK b1.
+
+SELECTION-SCREEN END OF SCREEN 0110.

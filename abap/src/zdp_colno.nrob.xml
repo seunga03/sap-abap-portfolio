@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_NROB" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <ATTRIBUTES>
+    <OBJECT>ZDP_COLNO</OBJECT>
+    <DOMLEN>ZD_DOCNO</DOMLEN>
+    <PERCENTAGE>90.0</PERCENTAGE>
+   </ATTRIBUTES>
+   <TEXT>
+    <LANGU>3</LANGU>
+    <OBJECT>ZDP_COLNO</OBJECT>
+    <TXT>고객 수요정보 수집 건별 공통 식별번호</TXT>
+    <TXTSHORT>[DP] 고객수요정보 번호</TXTSHORT>
+   </TEXT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>SD 공통 기능</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFG_SD_COMMONTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFG_SD_COMMON</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZSD_GET_NEXT_NO</FUNCNAME>
+     <SHORT_TEXT>SD 문서번호 채번</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_DOCTY</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR2</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_NUMBER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR10</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>INVALID_DOCTY</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NUMBER_ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_DOCTY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>문서유형 (SO/DL/BI/RK)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_NUMBER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>채번 결과</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>INVALID_DOCTY</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>문서유형 오류</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NUMBER_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>채번 실패</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

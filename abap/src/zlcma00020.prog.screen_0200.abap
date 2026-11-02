@@ -1,0 +1,11 @@
+PROCESS BEFORE OUTPUT.
+  MODULE status_0200.
+  MODULE modify_screen_0200.
+
+PROCESS AFTER INPUT.
+  MODULE user_command_0200.
+
+PROCESS ON VALUE-REQUEST.
+  FIELD gs_0200-zterm MODULE f4_zterm.
+  FIELD gs_0200-land1 MODULE f4_land1.
+  FIELD gs_0200-regio MODULE f4_regio.

@@ -1,0 +1,2191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMSGA</ARBGB>
+    <MASTERLANG>3</MASTERLANG>
+    <STEXT>[1조] Message Class</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>처리가 완료되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>정상적으로 조회되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>정상적으로 저장되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>정상적으로 변경되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>정상적으로 삭제되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>처리가 취소되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>&amp;건이 정상적으로 처리되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>&amp;1건 중 &amp;2건이 정상적으로 처리되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>작업을 계속하시겠습니까?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>선택한 데이터를 처리하시겠습니까?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>저장하시겠습니까?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>변경사항을 저장하시겠습니까?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>선택한 데이터를 삭제하시겠습니까?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>삭제된 데이터는 복구할 수 없습니다. 계속하시겠습니까?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>처리할 데이터를 선택해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>한 건 이상의 데이터를 선택해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>하나의 데이터만 선택해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>변경된 데이터가 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>처리 가능한 데이터가 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>현재 작업을 종료하시겠습니까?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>&amp;을(를) 입력해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>&amp;을(를) 선택해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>&amp;의 입력값이 올바르지 않습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>&amp;의 형식이 올바르지 않습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>&amp;1은(는) &amp;2보다 클 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>&amp;1은(는) &amp;2보다 작을 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>시작일은 종료일보다 클 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>종료일은 시작일보다 작을 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>&amp;은(는) 0보다 커야 합니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>&amp;에 음수를 입력할 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>필수 입력값을 확인해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>입력한 기간을 확인해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>동일한 데이터가 이미 존재합니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>중복된 데이터가 존재합니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>&amp; 값이 존재하지 않습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>&amp;은(는) 사용할 수 없는 값입니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>현재 상태에서는 해당 작업을 수행할 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>&amp;1 상태에서는 &amp;2 처리를 수행할 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>입력값을 다시 확인해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>변경할 값을 입력해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>조회된 데이터가 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>조건에 해당하는 데이터가 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>&amp;에 해당하는 데이터가 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>&amp; 데이터가 존재하지 않습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>이미 처리된 데이터입니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>이미 삭제된 데이터입니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>이미 저장된 데이터입니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>최신 데이터가 아닙니다. 다시 조회해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>다른 사용자가 데이터를 변경하였습니다. 다시 조회해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>데이터를 조회하는 중 오류가 발생했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>관련 데이터를 찾을 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>선행 데이터가 존재하지 않습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>후속 데이터가 존재하여 처리할 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>참조 데이터가 존재하지 않습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>해당 데이터는 이미 사용 중입니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>처리 대상 &amp;건을 조회했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>전체 &amp;건이 조회되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>검색 조건을 입력해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>조회 조건을 확인해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>데이터 조회에 실패했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>데이터를 저장하는 중 오류가 발생했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>데이터를 변경하는 중 오류가 발생했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>데이터를 삭제하는 중 오류가 발생했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>데이터 저장에 실패했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>데이터 변경에 실패했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>데이터 삭제에 실패했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>데이터 처리 중 오류가 발생했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>&amp; 처리 중 오류가 발생했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>트랜잭션 처리 중 오류가 발생했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>작업이 취소되었습니다. 변경사항이 반영되지 않았습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>데이터가 정상적으로 반영되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>&amp;건이 저장되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>&amp;건이 변경되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>&amp;건이 삭제되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>전체 &amp;1건 중 &amp;2건 처리에 실패했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>일부 데이터 처리에 실패했습니다. 결과를 확인해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>076</MSGNR>
+     <TEXT>데이터 처리 결과를 확인해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>077</MSGNR>
+     <TEXT>변경사항을 반영할 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>078</MSGNR>
+     <TEXT>처리 중인 데이터가 존재합니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>079</MSGNR>
+     <TEXT>이전 작업이 완료된 후 다시 시도해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>080</MSGNR>
+     <TEXT>해당 작업을 수행할 권한이 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>081</MSGNR>
+     <TEXT>&amp;에 대한 권한이 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>082</MSGNR>
+     <TEXT>현재 사용자에게 처리 권한이 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>083</MSGNR>
+     <TEXT>해당 데이터는 변경할 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>084</MSGNR>
+     <TEXT>해당 데이터는 삭제할 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>085</MSGNR>
+     <TEXT>해당 데이터는 현재 처리할 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>086</MSGNR>
+     <TEXT>다른 사용자가 해당 데이터를 처리 중입니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>087</MSGNR>
+     <TEXT>데이터 잠금에 실패했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>088</MSGNR>
+     <TEXT>잠금 해제에 실패했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>089</MSGNR>
+     <TEXT>처리 권한을 확인해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>090</MSGNR>
+     <TEXT>시스템 오류가 발생했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>091</MSGNR>
+     <TEXT>프로그램 실행 중 오류가 발생했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>092</MSGNR>
+     <TEXT>외부 시스템 호출 중 오류가 발생했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>093</MSGNR>
+     <TEXT>외부 시스템으로부터 응답을 받지 못했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>094</MSGNR>
+     <TEXT>외부 시스템의 응답값이 올바르지 않습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>095</MSGNR>
+     <TEXT>데이터 변환 중 오류가 발생했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>096</MSGNR>
+     <TEXT>처리 결과: 성공 &amp;1건 / 실패 &amp;2건</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>097</MSGNR>
+     <TEXT>오류 내용을 확인한 후 다시 시도해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>098</MSGNR>
+     <TEXT>관리자에게 문의해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>099</MSGNR>
+     <TEXT>예기치 않은 오류가 발생했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>조건에 맞는 공급업체가 존재하지 않습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>추가 거래 이력이 없습니다</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>해당 공급업체의 해당 자재 거래 이력이 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>&amp;1 건을 PR 목록으로 되돌렸습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>삭제할 PO 생성 대상을 선택하세요.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>구매요청 상태 변경에 실패했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>&amp;1 건은 납기 가능한 공급업체가 없어 PR 목록에 남았습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>&amp;1 건을 PO 생성 대상으로 이동했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>PO 생성할 구매요청을 선택하세요.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>PO 생성할 구매요청을 선택하세요.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>&amp;1 건을 입고 처리 대상으로 이동했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>112</MSGNR>
+     <TEXT>&amp;1 건은 납기 가능한 공급업체가 없어 PR 목록에 남았습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>113</MSGNR>
+     <TEXT>삭제할 PO 생성 대상을 선택하세요.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>114</MSGNR>
+     <TEXT>&amp;1 건을 PR 목록으로 되돌렸습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>115</MSGNR>
+     <TEXT>예외 요청 생성에 실패했습니다</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>116</MSGNR>
+     <TEXT>검수 문서 저장에 실패했습니다</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>117</MSGNR>
+     <TEXT>재검증 요청 목록 조회에 실패했습니다</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>118</MSGNR>
+     <TEXT>재검증 요청 완료 처리에 실패했습니다</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>119</MSGNR>
+     <TEXT>품질 검사를 진행할 건을 선택해주세요.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>120</MSGNR>
+     <TEXT>&amp;1 건을 PO 생성 대상으로 이동했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>121</MSGNR>
+     <TEXT>삭제할 품질검사 대상을 선택하세요.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>122</MSGNR>
+     <TEXT>&amp;1 건을 품질검사 대기 목록으로 되돌렸습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>123</MSGNR>
+     <TEXT>불량유형을 먼저 입력하세요.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>124</MSGNR>
+     <TEXT>등록된 불량유형 코드가 아닙니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>125</MSGNR>
+     <TEXT>오류를 성공적으로 처리하였습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>126</MSGNR>
+     <TEXT>&amp;1 건 만큼 조회되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>127</MSGNR>
+     <TEXT>조건에 맞는 데이터가 없습니다</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>128</MSGNR>
+     <TEXT>처리할 품질검사 건을 선택하세요.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>129</MSGNR>
+     <TEXT>자재이동문서 생성에 실패하였습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>130</MSGNR>
+     <TEXT>거래 가능한 업체가 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>131</MSGNR>
+     <TEXT>재고 입고 건이 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>132</MSGNR>
+     <TEXT>최근 3개월 입고 건이 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>133</MSGNR>
+     <TEXT>이번 달 평가 대상 업체가 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>134</MSGNR>
+     <TEXT>세 평가 항목이 모두 존재하는 업체가 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>135</MSGNR>
+     <TEXT>공급업체 평가번호 채번에 실패했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>136</MSGNR>
+     <TEXT>공급업체 평가기록 저장에 실패했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>137</MSGNR>
+     <TEXT>&amp;1 개 업체 평가기록을 생성했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>138</MSGNR>
+     <TEXT>품질 검사가 정상적으로 진행되었습니다</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>139</MSGNR>
+     <TEXT>다른 사용자가 편집 중에 있습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>140</MSGNR>
+     <TEXT>엑셀을 선택해주세요</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>141</MSGNR>
+     <TEXT>정상적으로 중지되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>142</MSGNR>
+     <TEXT>불량 사유를 입력해주세요</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>143</MSGNR>
+     <TEXT>불량 사유를 올바르게 작성해주세요</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>144</MSGNR>
+     <TEXT>&amp;1건을 품질 검사 대상으로 이동하였습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>145</MSGNR>
+     <TEXT>&amp;1 건을 되돌렸습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>200</MSGNR>
+     <TEXT>서로 다른 고객의 주문은 하나의 판매오더로 생성할 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>201</MSGNR>
+     <TEXT>판매오더 &amp;1이(가) 생성되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>202</MSGNR>
+     <TEXT>판매오더 &amp;1 생성 완료 / 조달요청(PR) &amp;2건 처리</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>203</MSGNR>
+     <TEXT>조달요청(PR) 생성 실패로 판매오더 생성이 취소되었습니다: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>204</MSGNR>
+     <TEXT>재고 예약 실패: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>205</MSGNR>
+     <TEXT>출고문서 &amp;1건 생성, &amp;2건 제외 (&amp;3)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>206</MSGNR>
+     <TEXT>생성된 출고문서가 없습니다. (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>207</MSGNR>
+     <TEXT>&amp;1건 처리, &amp;2건 제외 (&amp;3)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>208</MSGNR>
+     <TEXT>처리된 문서가 없습니다. (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>209</MSGNR>
+     <TEXT>선택한 생성 가능 주문으로 판매오더를 생성하시겠습니까?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>210</MSGNR>
+     <TEXT>동일한 주문(&amp;1)이 이미 있습니다. 그래도 생성하시겠습니까?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>211</MSGNR>
+     <TEXT>선택한 &amp;1건의 출고문서를 생성하시겠습니까?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>212</MSGNR>
+     <TEXT>선택한 &amp;1건의 출고문서를 취소하시겠습니까? 연결된 판매오더는 출고대상으로 돌아갑니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>213</MSGNR>
+     <TEXT>선택한 &amp;1건을 출하 처리하시겠습니까? 현재고가 차감됩니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>214</MSGNR>
+     <TEXT>선택한 &amp;1건의 출하를 취소하시겠습니까? 재고가 원복됩니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>215</MSGNR>
+     <TEXT>선택한 &amp;1건의 청구문서와 매출채권(AR)을 생성하시겠습니까?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>216</MSGNR>
+     <TEXT>선택한 &amp;1건의 청구문서를 취소하시겠습니까?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>230</MSGNR>
+     <TEXT>조회 조건에 해당하는 고객이 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>231</MSGNR>
+     <TEXT>행을 1개만 선택하세요.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>232</MSGNR>
+     <TEXT>&amp;은(는) 필수 입력 항목입니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>233</MSGNR>
+     <TEXT>국가 코드 &amp;이(가) 존재하지 않습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>234</MSGNR>
+     <TEXT>통화 코드 &amp;이(가) 존재하지 않습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>235</MSGNR>
+     <TEXT>이메일 형식이 올바르지 않습니다. (예: abc@test.com)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>236</MSGNR>
+     <TEXT>전화번호는 숫자와 &apos;-&apos;만 입력할 수 있습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>237</MSGNR>
+     <TEXT>동일한 고객명·주소가 이미 등록되어 있습니다. (고객 &amp; / 배송처 &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>238</MSGNR>
+     <TEXT>고객 &amp; / 배송처 &amp;이(가) 등록되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>239</MSGNR>
+     <TEXT>고객 &amp; / 배송처 &amp;이(가) 변경되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>240</MSGNR>
+     <TEXT>저장 중 오류가 발생했습니다. 다시 시도하세요.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>241</MSGNR>
+     <TEXT>고객 &amp;이(가) 거래정지 처리되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>242</MSGNR>
+     <TEXT>고객 &amp;의 거래정지가 해제되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>243</MSGNR>
+     <TEXT>작업이 취소되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>244</MSGNR>
+     <TEXT>사용여부는 Y 또는 N만 입력할 수 있습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>245</MSGNR>
+     <TEXT>다른 사용자가 고객 마스터를 처리 중입니다. 잠시 후 다시 시도하세요.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>246</MSGNR>
+     <TEXT>거래정지 고객에는 배송처를 추가할 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>247</MSGNR>
+     <TEXT>변경된 내용이 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>248</MSGNR>
+     <TEXT>이미 거래정지 상태인 고객입니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>249</MSGNR>
+     <TEXT>거래정지 상태인 고객이 아닙니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>250</MSGNR>
+     <TEXT>존재하지 않는 고객번호입니다. (&amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>251</MSGNR>
+     <TEXT>시작 고객번호가 끝 고객번호보다 큽니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>252</MSGNR>
+     <TEXT>지급조건 &amp;이(가) 존재하지 않습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>253</MSGNR>
+     <TEXT>전화번호 형식이 올바르지 않습니다. (예: 02-555-0006)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>254</MSGNR>
+     <TEXT>&amp;은(는) 2자 이상 입력하세요.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>255</MSGNR>
+     <TEXT>판매오더가 조회 기간에 포함되지 않습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>256</MSGNR>
+     <TEXT>고객 &amp;은(는) 거래 이력이 있어 삭제할 수 없습니다. 거래 정지를 사용하세요.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>257</MSGNR>
+     <TEXT>고객 &amp; / 배송처 &amp;이(가) 삭제되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>258</MSGNR>
+     <TEXT>&amp; 고객을 거래정지 하시겠습니까?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>259</MSGNR>
+     <TEXT>&amp; 고객의 거래정지를 해제하시겠습니까?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>260</MSGNR>
+     <TEXT>고객 &amp; / 배송처 &amp;을(를) 삭제하시겠습니까? 삭제 후에는 복구할 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>300</MSGNR>
+     <TEXT>PDF 또는 TXT 파일만 지원합니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>301</MSGNR>
+     <TEXT>TXT 파일을 읽을 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>302</MSGNR>
+     <TEXT>PDF 파일을 읽을 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>303</MSGNR>
+     <TEXT>PDF 파일 데이터가 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>304</MSGNR>
+     <TEXT>분석할 원문이 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>305</MSGNR>
+     <TEXT>AI 분석 결과가 생성되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>306</MSGNR>
+     <TEXT>저장할 데이터가 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>307</MSGNR>
+     <TEXT>원문을 읽는 중 오류가 발생했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>308</MSGNR>
+     <TEXT>Text Editor 데이터 동기화 중 오류가 발생했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>309</MSGNR>
+     <TEXT>AI 분석 결과가 없습니다. 직접 입력해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>310</MSGNR>
+     <TEXT>&amp;1은 양수로 입력하고 &amp;2으로 구분해주세요.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>311</MSGNR>
+     <TEXT>&amp; Number Range 채번에 실패했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>312</MSGNR>
+     <TEXT>수집번호 &amp;가 저장되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>313</MSGNR>
+     <TEXT>검증 오류가 있습니다. 저장할 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>314</MSGNR>
+     <TEXT>수요예측 대상 데이터가 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>315</MSGNR>
+     <TEXT>활성 Hold &amp;가 있습니다. 먼저 해제하세요.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>316</MSGNR>
+     <TEXT>해제할 활성 Payment Hold가 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>317</MSGNR>
+     <TEXT>담당그룹(&amp;1)과 다른 부서(&amp;2) 담당자입니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>318</MSGNR>
+     <TEXT>허용되지 않는 조치입니다. (발생출처 &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>319</MSGNR>
+     <TEXT>취소된(최종반려) 송장은 재검증 불가. 종료하세요.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>320</MSGNR>
+     <TEXT>위험등급을 하나 이상 선택하세요.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>321</MSGNR>
+     <TEXT>AI 추천 조치: &amp;1 (참고 사례 &amp;2건)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>322</MSGNR>
+     <TEXT>추천 근거: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>323</MSGNR>
+     <TEXT>AI 추천을 불러오지 못했습니다. 직접 조치를 결정하세요.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>324</MSGNR>
+     <TEXT>&amp;개 행이 삭제되었습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>325</MSGNR>
+     <TEXT>삭제할 행을 선택해 주세요.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>326</MSGNR>
+     <TEXT>재검증을 지원하지 않는 발생출처입니다. (발생출처 &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>327</MSGNR>
+     <TEXT>후속 요청(&amp;1) 처리가 끝난 뒤에 진행할 수 있습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>400</MSGNR>
+     <TEXT>최근 &amp;1 &amp;2건을 조회했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>401</MSGNR>
+     <TEXT>&amp;1을(를) 하나 이상 선택해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>402</MSGNR>
+     <TEXT>&amp;1 행을 선택해 주십시오. (왼쪽 행 선택 버튼)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>403</MSGNR>
+     <TEXT>담을 채무를 선택해 주십시오. (홀드·지급완료 건은 담을 수 없음)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>404</MSGNR>
+     <TEXT>담을 채권을 선택해 주십시오. (수금완료 건은 담을 수 없음)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>405</MSGNR>
+     <TEXT>&amp;1건을 &amp;2 목록에 추가했습니다. &amp;2액은 아래에서 수정할 수 있습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>406</MSGNR>
+     <TEXT>&amp;1건을 &amp;2 목록에서 제외했습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>407</MSGNR>
+     <TEXT>&amp;1: &amp;2액은 0보다 크고 &amp;2 전 잔액 이하여야 합니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>408</MSGNR>
+     <TEXT>통화가 다른 건은 한 번에 처리할 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>409</MSGNR>
+     <TEXT>&amp;1 목록이 비어 있습니다. (위 목록에서 체크 → &amp;1 목록에 추가)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>410</MSGNR>
+     <TEXT>&amp;1계좌를 확인해 주십시오. (F4로 선택)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>411</MSGNR>
+     <TEXT>&amp;1 완료: &amp;2 &amp;3곳 / 실패 &amp;4곳</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>412</MSGNR>
+     <TEXT>기간 버튼을 누르거나 조회 조건을 하나 이상 입력해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>413</MSGNR>
+     <TEXT>최신 상태로 다시 조회했습니다. (&amp;1건)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>414</MSGNR>
+     <TEXT>판정 근거가 저장되지 않은 송장입니다. (필드 추가 전 등록)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>415</MSGNR>
+     <TEXT>PO번호, 거래처 송장번호, 발행일, AP 인식일을 모두 입력해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>416</MSGNR>
+     <TEXT>이미 등록된 거래처 송장번호입니다. (송장번호 &amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>417</MSGNR>
+     <TEXT>공급업체 &amp;1의 지급조건이 없습니다. 거래처 마스터를 확인해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>418</MSGNR>
+     <TEXT>지급조건 &amp;1이(가) 지급조건 마스터에 없거나 미사용입니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>419</MSGNR>
+     <TEXT>청구수량이 입력된 라인이 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>420</MSGNR>
+     <TEXT>인보이스 총액과 라인 합계가 다릅니다. (차이 &amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>421</MSGNR>
+     <TEXT>송장 &amp;1 등록 완료 / 판정 &amp;2 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>422</MSGNR>
+     <TEXT>AI 통신 실패: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>423</MSGNR>
+     <TEXT>AI 호출 실패 (HTTP &amp;1). 모델 ID/키를 확인해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>424</MSGNR>
+     <TEXT>PDF에서 PO번호를 찾지 못했습니다. 직접 입력해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>425</MSGNR>
+     <TEXT>PDF 송장을 읽어 입력했습니다. 값을 확인한 뒤 실행(F8)해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>426</MSGNR>
+     <TEXT>저장할 송장을 선택해 주십시오. (예상판정 PASS만 선택 가능)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>427</MSGNR>
+     <TEXT>재검증 &amp;1건: 저장 &amp;2 / 저장 안 됨 &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>428</MSGNR>
+     <TEXT>반려(QREJ) 송장만 취소할 수 있습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>429</MSGNR>
+     <TEXT>송장 취소 &amp;1건 완료 / 실패 &amp;2건 / 제외 &amp;3건 (QREJ만 가능)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>430</MSGNR>
+     <TEXT>단가차이(HOLD) 송장만 조정할 수 있습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>431</MSGNR>
+     <TEXT>단가차이 조정 &amp;1건 완료 / 실패 &amp;2건 / 제외 &amp;3건 (홀드 해제는 CM03)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>432</MSGNR>
+     <TEXT>AI 무료 사용량 초과 (HTTP 429). 잠시 후 다시 시도해 주십시오.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>433</MSGNR>
+     <TEXT>기준일은 오늘 이후 날짜만 입력할 수 있습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>434</MSGNR>
+     <TEXT>&amp;1은(는) 오늘 이후 날짜로 입력할 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>435</MSGNR>
+     <TEXT>증빙일은 전기일보다 늦을 수 없습니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>436</MSGNR>
+     <TEXT>&amp;1은(는) 0보다 커야 합니다.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>3</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <MSGNR>437</MSGNR>
+     <TEXT>공급업체 &amp;1은(는) 사용 중지된 거래처입니다. 거래처 마스터를 확인해 주십시오.</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMSGA</ARBGB>
+     <STEXT>[1조] Message Class</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>처리가 완료되었습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>정상적으로 조회되었습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>정상적으로 저장되었습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>정상적으로 변경되었습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>정상적으로 삭제되었습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>처리가 취소되었습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>&amp;건이 정상적으로 처리되었습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>&amp;1건 중 &amp;2건이 정상적으로 처리되었습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>작업을 계속하시겠습니까?</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>선택한 데이터를 처리하시겠습니까?</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>저장하시겠습니까?</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>변경사항을 저장하시겠습니까?</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>선택한 데이터를 삭제하시겠습니까?</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>삭제된 데이터는 복구할 수 없습니다. 계속하시겠습니까?</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>처리할 데이터를 선택해 주십시오.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>한 건 이상의 데이터를 선택해 주십시오.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>하나의 데이터만 선택해 주십시오.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>변경된 데이터가 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>처리 가능한 데이터가 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>현재 작업을 종료하시겠습니까?</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>&amp;을(를) 입력해 주십시오.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>&amp;을(를) 선택해 주십시오.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>&amp;의 입력값이 올바르지 않습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>&amp;의 형식이 올바르지 않습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>&amp;1은(는) &amp;2보다 클 수 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>&amp;1은(는) &amp;2보다 작을 수 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>시작일은 종료일보다 클 수 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>종료일은 시작일보다 작을 수 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>&amp;은(는) 0보다 커야 합니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>&amp;에 음수를 입력할 수 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>필수 입력값을 확인해 주십시오.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>입력한 기간을 확인해 주십시오.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>동일한 데이터가 이미 존재합니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>중복된 데이터가 존재합니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>&amp; 값이 존재하지 않습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>&amp;은(는) 사용할 수 없는 값입니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>현재 상태에서는 해당 작업을 수행할 수 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>&amp;1 상태에서는 &amp;2 처리를 수행할 수 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>입력값을 다시 확인해 주십시오.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>변경할 값을 입력해 주십시오.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>조회된 데이터가 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>조건에 해당하는 데이터가 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>&amp;에 해당하는 데이터가 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>&amp; 데이터가 존재하지 않습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>이미 처리된 데이터입니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>이미 삭제된 데이터입니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>이미 저장된 데이터입니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>최신 데이터가 아닙니다. 다시 조회해 주십시오.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>다른 사용자가 데이터를 변경하였습니다. 다시 조회해 주십시오.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>데이터를 조회하는 중 오류가 발생했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>관련 데이터를 찾을 수 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>선행 데이터가 존재하지 않습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>후속 데이터가 존재하여 처리할 수 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>참조 데이터가 존재하지 않습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>해당 데이터는 이미 사용 중입니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>처리 대상 &amp;건을 조회했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>전체 &amp;건이 조회되었습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>검색 조건을 입력해 주십시오.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>조회 조건을 확인해 주십시오.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>데이터 조회에 실패했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>데이터를 저장하는 중 오류가 발생했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>데이터를 변경하는 중 오류가 발생했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>데이터를 삭제하는 중 오류가 발생했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>데이터 저장에 실패했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>데이터 변경에 실패했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>데이터 삭제에 실패했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>데이터 처리 중 오류가 발생했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>&amp; 처리 중 오류가 발생했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>트랜잭션 처리 중 오류가 발생했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>작업이 취소되었습니다. 변경사항이 반영되지 않았습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>데이터가 정상적으로 반영되었습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>&amp;건이 저장되었습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>&amp;건이 변경되었습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>&amp;건이 삭제되었습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>전체 &amp;1건 중 &amp;2건 처리에 실패했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>일부 데이터 처리에 실패했습니다. 결과를 확인해 주십시오.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>데이터 처리 결과를 확인해 주십시오.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>변경사항을 반영할 수 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>처리 중인 데이터가 존재합니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>이전 작업이 완료된 후 다시 시도해 주십시오.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>해당 작업을 수행할 권한이 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>&amp;에 대한 권한이 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>현재 사용자에게 처리 권한이 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>해당 데이터는 변경할 수 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>해당 데이터는 삭제할 수 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>해당 데이터는 현재 처리할 수 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>다른 사용자가 해당 데이터를 처리 중입니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>데이터 잠금에 실패했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>잠금 해제에 실패했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>처리 권한을 확인해 주십시오.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>시스템 오류가 발생했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>프로그램 실행 중 오류가 발생했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>외부 시스템 호출 중 오류가 발생했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>외부 시스템으로부터 응답을 받지 못했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>외부 시스템의 응답값이 올바르지 않습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>데이터 변환 중 오류가 발생했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>처리 결과: 성공 &amp;1건 / 실패 &amp;2건</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>오류 내용을 확인한 후 다시 시도해 주십시오.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>관리자에게 문의해 주십시오.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>예기치 않은 오류가 발생했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>300</MSGNR>
+     <TEXT>PDF 또는 TXT 파일만 지원합니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>301</MSGNR>
+     <TEXT>TXT 파일을 읽을 수 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>302</MSGNR>
+     <TEXT>PDF 파일을 읽을 수 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>303</MSGNR>
+     <TEXT>PDF 파일 데이터가 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>304</MSGNR>
+     <TEXT>분석할 원문이 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>305</MSGNR>
+     <TEXT>AI 분석 결과가 생성되었습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>306</MSGNR>
+     <TEXT>저장할 데이터가 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>307</MSGNR>
+     <TEXT>원문을 읽는 중 오류가 발생했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>308</MSGNR>
+     <TEXT>Text Editor 데이터 동기화 중 오류가 발생했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>309</MSGNR>
+     <TEXT>AI에서 추출된 데이터가 없습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>310</MSGNR>
+     <TEXT>&amp;1은 양수로 입력하고 &amp;2으로 구분해주세요.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>311</MSGNR>
+     <TEXT>&amp; Number Range 채번에 실패했습니다.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>315</MSGNR>
+     <TEXT>Active hold &amp; exists. Release it first.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>316</MSGNR>
+     <TEXT>There is no active payment hold to release.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>317</MSGNR>
+     <TEXT>Owner group (&amp;) differs from the assignee&apos;s department (&amp;).</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>318</MSGNR>
+     <TEXT>Action not allowed. (source &amp;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>319</MSGNR>
+     <TEXT>Cancelled invoice cannot be re-verified. Please close it.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>320</MSGNR>
+     <TEXT>Select at least one risk grade.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>321</MSGNR>
+     <TEXT>AI recommended action: &amp;1 (&amp;2 similar cases)</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>322</MSGNR>
+     <TEXT>Reason: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>327</MSGNR>
+     <TEXT>Follow-up request &amp;1 must be completed first.</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

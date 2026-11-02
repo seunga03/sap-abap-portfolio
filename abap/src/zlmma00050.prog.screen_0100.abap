@@ -1,0 +1,7 @@
+PROCESS BEFORE OUTPUT.
+  MODULE status_0100.
+  MODULE init_control_processing.
+
+PROCESS AFTER INPUT.
+  MODULE user_command_0100.
+  MODULE exit AT EXIT-COMMAND.

@@ -1,0 +1,14 @@
+abstract;
+strict ( 2 );
+with hierarchy;
+
+define behavior for ZAE_MM_GR_REQUEST alias Request
+{
+  association _Item;
+}
+
+define behavior for ZAE_MM_GR_ITEM alias Item
+{
+  field ( suppress ) RequestId;
+  association _Request;
+}

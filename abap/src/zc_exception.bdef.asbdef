@@ -1,0 +1,23 @@
+projection;
+strict ( 2 );
+use side effects;
+
+define behavior for ZC_EXCEPTION alias Exception
+use etag
+{
+  use action assignToMe;
+  use action assignTo;
+  use action releaseHold;
+  use action reject;
+  use action close;
+  use action decideAction;
+  use association _History;
+  use action recheck;
+  use action aiRecommend;
+  use action getAiRecommend;                                                     // ★
+}
+
+define behavior for ZC_EXCEPTION_HIST alias History
+{
+  use association _Exception;
+}

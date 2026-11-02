@@ -1,0 +1,4 @@
+@EndUserText.label: '바코드 입고 OData 서비스'
+define service ZUI_MM_GR_SRV {
+  expose ZC_MM_GR as Gr;
+}
